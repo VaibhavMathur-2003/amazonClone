@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    padding-top: 0px;
+    object-fit: contain;
+    margin-top: 0px;
+    z-index: 10;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(1, 1, 40);
+    color: white;
+}
+
+.logo{
+    background-color: rgb(1, 1, 40);
+    height: 50%;
+    flex: .45;
+    object-fit: contain;
+    margin:0px 50px;
+}
+.logo img{
+    width: 150px;
+    object-fit: contain;
+    padding-top: 15px;
+    min-width: 50px;
+    
+}
+.navlist{
+    object-fit: contain;
+    display: flex;
+    background-color: rgb(1, 1, 40);
+}
+.navlist .option{
+    display: inline-block;
+    object-fit: contain;
+    margin:0px 30px;
+    font-size: 1.3vw;
+    background-color: rgb(1, 1, 40);
+}
+.navlist .option span{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    font-size: 100%;
+    align-items: center;
+    background-color: rgb(1, 1, 40);
+}
+.navlist .option img{
+    object-fit: contain;
+    background-color: rgb(1, 1, 40);
+    width: 40px;
+    height: auto;
+    max-height: 40px;
+    object-fit: contain;
+}
+.search input{
+    background-color: white;
+    
+}
+.search{
+    display: flex;
+    flex: .75;
+    object-fit: contain;
+    background-color: rgb(1, 1, 40);
+}
+
+.searchImage img{
+    padding-top: 0px;
+    margin-right: 0px;
+    
+}
