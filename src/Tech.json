@@ -1,67 +1,54 @@
 [
-    {
-        "id": 1,
-        "imgUrl" : "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_cf6785b2-ba1d-40bb-a760-3fbaf71823f5_1728x.jpg?v=1648804905",
-        "name" : "Adidas Xpeedflow Messi",
-        "price" : 2048202,
-        "description" : ""
-    },
-    {
-        "id": 2,
-        "imgUrl" : "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_a5e2a6d5-63b3-409a-8c7f-d4f42ebd5a7a_460x.jpg?v=1648882907",
-        "name" : "Air Jordan Retro",
-        "price" : 27800,
-        "description" : ""
-    },
+    
     {
         "id": 3,
-        "imgUrl" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/09e7a53e-b8aa-4025-b2f0-2b46493c982c/custom-nike-mercurial-superfly-8-elite-by-you.png",
-        "name" : "Nike Mercurial Superfly 8",
-        "price" : 21000,
+        "imgUrl" : "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name" : "MacBook",
+        "price" : 83900,
         "description" : ""
     },
     {
         "id": 4,
-        "imgUrl" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0b52672a-6c63-4c7d-89ea-871e8c984863/air-jordan-og-womens-shoes-6JW206.png",
-        "name" : "Air Jordan OG",
-        "price" : 15000,
+        "imgUrl" : "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+        "name" : "Smart Watch",
+        "price" : 22000,
         "description" : ""
     },
     {
         "id": 5,
-        "imgUrl" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/541cd4be-3969-4cb2-9c41-c8af7461c1ef/air-jordan-13-retro-big-kids-shoes-SD01LL.png",
-        "name" : "Air Jordan 13",
-        "price" : 17000,
+        "imgUrl" : "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aXBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name" : "IPhone",
+        "price" : 70999,
         "description" : ""
     },
     {
         "id":6,
-        "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
-        "name": "CHECK PRINT SHIRT",
-        "price": 110
+        "imgUrl": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Headphones",
+        "price": 6000
     },
     {
         "id":7,
-        "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-        "name": "GLORIA HIGH LOGO SNEAKER",
-        "price": 91
+        "imgUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dnIlMjBoZWFkc2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "VR Headset",
+        "price": 4599
     },
     {
         "id":8,
-        "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-        "name": "CATE RIGID BAG",
-        "price": 94.5
+        "imgUrl": "https://images.unsplash.com/photo-1578319439584-104c94d37305?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZWFycGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Earphones",
+        "price": 5999
     },
     {
         "id":9,
-        "imgUrl": "http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
-        "name": "GUESS CONNECT WATCH",
-        "price": 438.9
+        "imgUrl": "https://images.unsplash.com/photo-1585605109191-03cc36051fcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHNwZWFrZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "name": "Speaker",
+        "price": 9999
     },
     {
         "id":10,
-        "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-        "name": "'70s RETRO GLAM KEFIAH",
-        "price": 20
+        "imgUrl": "https://images.unsplash.com/photo-1617036083087-ce31fac66b23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZHNscnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "DSLR",
+        "price": 75600
     }
 ]

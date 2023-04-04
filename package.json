@@ -12,10 +12,8 @@
     "react-elastic-carousel": "^0.11.5",
     "react-https-redirect": "^1.1.0",
     "react-responsive": "^9.0.0-beta.6",
-    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
-    "react-slick": "^0.28.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },

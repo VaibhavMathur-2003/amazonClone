@@ -1,18 +1,5 @@
 [
-    {
-        "id": 1,
-        "imgUrl" : "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_cf6785b2-ba1d-40bb-a760-3fbaf71823f5_1728x.jpg?v=1648804905",
-        "name" : "Adidas Xpeedflow Messi",
-        "price" : 2048202,
-        "description" : ""
-    },
-    {
-        "id": 2,
-        "imgUrl" : "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/main-square_a5e2a6d5-63b3-409a-8c7f-d4f42ebd5a7a_460x.jpg?v=1648882907",
-        "name" : "Air Jordan Retro",
-        "price" : 27800,
-        "description" : ""
-    },
+    
     {
         "id": 3,
         "imgUrl" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/09e7a53e-b8aa-4025-b2f0-2b46493c982c/custom-nike-mercurial-superfly-8-elite-by-you.png",

@@ -1,19 +1,12 @@
 import React from "react";
 import "./Shopping.css";
-import Slider from "react-slick";
 import { ShoppingCard } from "./ShoppingCard";
 import Shoes from "./Shoes.json";
+import Chocolates from "./Chocolates.json";
 import Tech from "./Tech.json";
 import Carousel from "react-elastic-carousel";
 
-const settings = {
-  dots: false,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 5,
-  slidesToScroll: 4,
-  className: "shopping",
-};
+
 const breakPoints = [
   { width: 1, itemsToShow: 1},
   { width: 350, itemsToShow: 2},
@@ -29,7 +22,7 @@ export const Shopping = () => {
       <div className="shoes">
         <h2 className="items">Stunning Luxurious Shoes</h2>
         <Carousel className="shoeCaro" breakPoints={breakPoints} outerSpacing={0} emulateTouch={true} useKeyboardArrows={true} stopOnHover={false} dataTouch={true}>
-          {Shoes.map((i) => {
+          {Tech.map((i) => {
             return <ShoppingCard key = {i.id} {...i} />;
           })}
         </Carousel>
@@ -38,27 +31,20 @@ export const Shopping = () => {
       <div className="shoes">
         <h2 className="items">Tech Products</h2>
         <Carousel breakPoints={breakPoints} emulateTouch={true} useKeyboardArrows={true} stopOnHover={false} dataTouch={true}>
-        {Tech.map((i) => {
+        {Shoes.map((i) => {
             return <ShoppingCard key = {i.id} {...i} />;
           })}
         </Carousel>
       </div>
       <div className="shoes">
-        <h2 className="items">Tech Products</h2>
+        <h2 className="items">Chocolates</h2>
         <Carousel breakPoints={breakPoints} emulateTouch={true} useKeyboardArrows={true} stopOnHover={false} dataTouch={true}>
-        {Tech.map((i) => {
+        {Chocolates.map((i) => {
             return <ShoppingCard key = {i.id} {...i} />;
           })}
         </Carousel>
       </div>
-      <div className="shoes">
-        <h2 className="items">Tech Products</h2>
-        <Carousel breakPoints={breakPoints} emulateTouch={true} useKeyboardArrows={true} stopOnHover={false} dataTouch={true}>
-        {Tech.map((i) => {
-            return <ShoppingCard key = {i.id} {...i} />;
-          })}
-        </Carousel>
-      </div>
+      
     </>
   );
 };

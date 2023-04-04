@@ -2,7 +2,7 @@ import MediaQuery from "react-responsive";
 import React from "react";
 import "./Navbar.css";
 import { useStateValue } from "./StateProvider";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [{ cart }, dispatch] = useStateValue();
@@ -14,7 +14,7 @@ export const Navbar = () => {
           <div className="logo">
             <img
               src="https://bizmonthly.com/wp-content/uploads/2020/04/amazon-logo-black.png"
-              alt="image nhi mil rahi"
+              alt="nhi mil rahi"
             />
           </div>
           </Link>
@@ -26,9 +26,9 @@ export const Navbar = () => {
             
             <div className="option">
               <img
-                src="https://img.icons8.com/color/2x/amazon-prime-video.png"
+                src="https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w"
                 alt=""
-                style={{ height: "50px", width: "60px" }}
+                style={{ height: "70px", width: "60px" }}
               />
             </div>
             <Link to="/cart">
@@ -49,13 +49,6 @@ export const Navbar = () => {
             </div>
           </div>
 
-          <div className="search">
-            <input type="text" placeholder="" className="search" />
-            {/* <div className="searchImage"><img
-            src="https://img.icons8.com/ios-filled/2x/search--v2.gif"
-            alt=""
-          /></div> */}
-          </div>
         </nav>
       </MediaQuery>
       <MediaQuery maxWidth={850}>
@@ -65,7 +58,7 @@ export const Navbar = () => {
             <div className="navbar-brand logo">
               <img
                 src="https://bizmonthly.com/wp-content/uploads/2020/04/amazon-logo-black.png"
-                alt="image nhi mil rahi"
+                alt="nhi mil rahi"
               />
             </div>
             </Link>
@@ -108,22 +101,12 @@ export const Navbar = () => {
                     <img
                       src="https://img.icons8.com/color/2x/amazon-prime-video.png"
                       alt=""
-                      style={{ height: "50px", width: "60px" }}
+                      style={{ height: "70px", width: "60px" }}
                     />
                   </div>
                 </li>
               </ul>
-              <form className="d-flex">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+              
             </div>
           </div>
         </nav>

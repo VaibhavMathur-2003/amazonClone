@@ -1,6 +1,5 @@
 import React from "react";
 import "./ShoppingCard.css"
-import Shoes from "./Shoes.json" 
 import { useStateValue } from "./StateProvider";
 
 

@@ -1,0 +1,54 @@
+[
+    
+    {
+        "id": 3,
+        "imgUrl" : "https://www.desiblitz.com/wp-content/uploads/2015/12/Godiva-Middle.jpg",
+        "name" : "Godiva",
+        "price" : 1499,
+        "description" : ""
+    },
+    {
+        "id": 4,
+        "imgUrl" : "https://www.desiblitz.com/wp-content/uploads/2015/12/Lindt-Middle.jpg",
+        "name" : "Lindt & Sprugli",
+        "price" : 999,
+        "description" : ""
+    },
+    {
+        "id": 5,
+        "imgUrl" : "https://www.desiblitz.com/wp-content/uploads/2015/12/Guylian-Middle.jpg",
+        "name" : "Guylian",
+        "price" : 529,
+        "description" : ""
+    },
+    {
+        "id":6,
+        "imgUrl": "https://www.desiblitz.com/wp-content/uploads/2015/12/Artisan-du-Chocolate-Middle.jpg",
+        "name": "Artisan du Chocolat",
+        "price": 899
+    },
+    {
+        "id":7,
+        "imgUrl": "https://www.desiblitz.com/wp-content/uploads/2015/12/Bettys-Middle.jpg",
+        "name": "Bettys",
+        "price": 1199
+    },
+    {
+        "id":8,
+        "imgUrl": "https://www.desiblitz.com/wp-content/uploads/2015/12/Pierre-Marcolini-Middle.jpg",
+        "name": "Maison Pierre Marcolini",
+        "price": 599
+    },
+    {
+        "id":9,
+        "imgUrl": "https://www.desiblitz.com/wp-content/uploads/2015/12/Fifth-Dimension.jpg",
+        "name": "Fifth Dimension",
+        "price": 1599
+    },
+    {
+        "id":10,
+        "imgUrl": "https://www.desiblitz.com/wp-content/uploads/2015/12/Hotel-du-Chocolate-Middle.jpg",
+        "name": "Hotel Chocolat",
+        "price": 699
+    }
+]
