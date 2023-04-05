@@ -15,7 +15,6 @@
 .productImage img {
     display: block;
     width: 100%;
-    max-height: 300px;
     max-width: 350px;
   object-position: bottom;
     background-image: black;
