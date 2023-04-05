@@ -38,48 +38,20 @@
     padding: 0px 3px;
     margin-top:0px ;
 }
-@media only screen and (max-width: 1020px){
-    .productImage img{
-        height: 250px;
-    }
-}
-@media only screen and (max-width: 850px){
-    .productImage img{
-        height: 220px;
-    }
-}
-@media only screen and (max-width: 600px){
-    .productImage img{
-        height: 230px;
-    }
-    .product{
-        height: 400px;
-    }
-}
-@media only screen and (max-width: 510px){
-    .productImage img{
-        height: 250px;
-    }
-    .product{
-        height: 400px;
-    }
-}
-@media only screen and (max-width: 400px){
-    .productImage img{
-        height: 220px;
-    }
-    .product{
-        height: 350px;
-    }
+
+
+@media only screen and (max-width: 500px){
     .productHead{
         font-size: 14px;
         font-weight: 500;
         margin-bottom: 10px;
     }
+    .productImage img{
+        max-width: 225px;
+    }
 }
 @media only screen and (max-width: 350px){
     .productImage img{
-        width: 180px;
-        height: 200px;
+        max-width: 200px;
     }
 }
