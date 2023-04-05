@@ -10,6 +10,7 @@ function Cart() {
   
   return (
     <>
+    {console.log(dispatch)}
       <div className="cart">
         <div className="cartHead">
           <h1>Shopping Cart</h1>

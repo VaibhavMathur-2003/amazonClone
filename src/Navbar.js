@@ -8,6 +8,7 @@ export const Navbar = () => {
   const [{ cart }, dispatch] = useStateValue();
   return (
     <>
+    {console.log(dispatch)}
       <MediaQuery minWidth={850}>
         <nav className="navbar container-fluid">
           <Link to="/">

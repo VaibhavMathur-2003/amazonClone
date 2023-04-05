@@ -20,6 +20,8 @@ export const ShoppingCard = (props) => {
   };
   return (
     <>  
+        {console.log(cart)}
+
       <div className="product">
       <div className="productImage">
             <img
