@@ -14,37 +14,44 @@ const responsive = {
   1024: { items: 3 },
 };
 const item1 = Tech.map((i) => {
-  return (<ShoppingCard key={i.id} {...i} />);
-})
+  return <ShoppingCard key={i.id} {...i} />;
+});
 const item2 = Shoes.map((i) => {
-  return (<ShoppingCard key={i.id} {...i} />);
-})
+  return <ShoppingCard key={i.id} {...i} />;
+});
 const item3 = Chocolates.map((i) => {
-  return (<ShoppingCard key={i.id} {...i} />);
-})
+  return <ShoppingCard key={i.id} {...i} />;
+});
 export const Shopping = () => {
   return (
     <>
       <div className="shoes">
         <h2 className="items">Tech Products</h2>
-        <AliceCarousel 
-        responsive={responsive}  items={item1} className="shoeCaro"/>
-          
+        <AliceCarousel
+          responsive={responsive}
+          infinite
+          items={item1}
+          className="shoeCaro"
+        />
       </div>
 
       <div className="shoes">
         <h2 className="items">Stunning Luxurious Shoes</h2>
         <AliceCarousel
-          responsive={responsive}  items={item2} className="shoeCaro"
+          responsive={responsive}
+          infinite
+          items={item2}
+          className="shoeCaro"
         />
-        
       </div>
       <div className="shoes">
         <h2 className="items">Chocolates</h2>
         <AliceCarousel
-          responsive={responsive}  items={item3} className="shoeCaro"
+          responsive={responsive}
+          infinite
+          items={item3}
+          className="shoeCaro"
         />
-          
       </div>
     </>
   );

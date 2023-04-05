@@ -6,7 +6,7 @@
 .items{
   font-weight: 500;
   font-style: italic;
-  font-size: 30px;
+  font-size: clamp(1.2rem, .5rem + 2vw, 2rem);
   background-color: black;
   color: #66FCF1;
   margin-bottom: 0px;
