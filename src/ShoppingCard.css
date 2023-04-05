@@ -11,17 +11,18 @@
     border-width: 10px;
     background-color: black;
     color: white;
-    margin: 0px 0px;
+    margin: 0px;
 }
 .productImage img {
     display: block;
     width: 100%;
   height: 300px;
-  object-fit: cover;
   object-position: bottom;
     background-image: black;
     padding:10px 0px;
     padding-top: 20px;
+    margin: 0px;
+
     border-radius: 30px;
 }
 .productHead{

@@ -17,23 +17,3 @@
 
 
 }
-.shopping:hover > .slick-prev {
-  left: 3% !important;
-  z-index: 1;
-}
-.shopping:hover > .slick-next {
-  right: 3% !important;
-  z-index: 1;
-}
-.shopping:hover > .slick-prev:before {
-  /* content: "<"; */
-  color: black;
-  font-size: 50px;
-  font-weight: 700;
-}
-
-.shopping:hover > .slick-next:before {
-  /* content: ">"; */
-  color: black;
-  font-size: 50px;
-}
