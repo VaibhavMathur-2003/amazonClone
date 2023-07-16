@@ -14,8 +14,8 @@ export const Navbar = () => {
           <Link to="/">
             <div className="logo">
               <img
-                src="https://bizmonthly.com/wp-content/uploads/2020/04/amazon-logo-black.png"
-                alt="nhi mil rahi"
+                src="https://nighteye.app/wp-content/uploads/2019/01/amazon-dark-mode-main2.jpeg.001.jpeg.webp"
+                alt="Logo Not found"
               />
             </div>
           </Link>
@@ -24,13 +24,14 @@ export const Navbar = () => {
               Hello
               <span>Guest</span>
             </div>
-            <a href="https://courageous-shortbread-fd0286.netlify.app/">
+            <a href="https://amazon-prime-clone.netlify.app/">
             <div className="option">
               <img
                 src="https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w"
                 alt=""
                 style={{ height: "70px", width: "60px" }}
               />
+              Click
             </div>
             </a>
             <Link to="/cart">
@@ -41,6 +42,7 @@ export const Navbar = () => {
                 />
                 <span>
                   <strong>{cart?.length}</strong>
+                  Click
                 </span>
               </div>
             </Link>
@@ -58,8 +60,8 @@ export const Navbar = () => {
             <Link to="/">
               <div className="navbar-brand logo">
                 <img
-                  src="https://bizmonthly.com/wp-content/uploads/2020/04/amazon-logo-black.png"
-                  alt="nhi mil rahi"
+                  src="https://nighteye.app/wp-content/uploads/2019/01/amazon-dark-mode-main2.jpeg.001.jpeg.webp"
+                  alt="Logo not found"
                 />
               </div>
             </Link>
@@ -72,6 +74,7 @@ export const Navbar = () => {
                 />
                 <span>
                   <strong>{cart?.length}</strong>
+                  Click
                 </span>
               </div>
             </Link>
@@ -105,6 +108,7 @@ export const Navbar = () => {
                         alt=""
                         style={{ height: "70px", width: "60px" }}
                       />
+                      Click
                     </div>
                   </a>
                 </li>
